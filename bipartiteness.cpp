@@ -3,7 +3,7 @@
 vector<int> visited(100005, 0);
 vector<int> adj[100005];
 vector<int> color(100005);
-bool possible = 1
+bool possible = 1;
 void dfs(int i, int clr){
 	color[i]=clr;
 	visited[i] = 1;
