@@ -70,7 +70,7 @@ struct my_update
 	void apply(my_node &x,const int32_t &tl,const int32_t &tr){
  
 		// no change in freq
-		x.v = (tr-tl+1)*v; //7
+		x.v += (tr-tl+1)*v; //7
  
 	}
 };
